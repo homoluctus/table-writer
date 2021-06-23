@@ -4,9 +4,8 @@ Generate ASCII table
 
 ## Features
 
-- Support multiple lines
-  - Output words after the line break on the next row
-  - Line breaks when the number of words is greater than terminal width
+- Automatic wrap
+  - Line breaks if the number of words is greater than terminal width
 - Automatic padding
 - Choose predefined table styles
   - simple
