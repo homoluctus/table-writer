@@ -1,0 +1,10 @@
++-----------+-------------------+--------------------+
+| A         | AAAAAAAAA         | AAAAAAAAAA         |
++===========+===================+====================+
+| AAAAAAAAA | AAAAAAAAAAAAAAAAA | AAAAAAAAAAAAAAAAAA |
+| AA        | AA                | AA                 |
++-----------+-------------------+--------------------+
+| AAAAAAAAA | AAAAAAAAAAAAAAAAA | AAAAAAAAAAAAAAAAAA |
+| AAAAAAAAA | AAAAAAAAAAAA      | AAAAAAAAAAAA       |
+| AAA       |                   |                    |
++-----------+-------------------+--------------------+

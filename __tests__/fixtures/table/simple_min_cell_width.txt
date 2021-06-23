@@ -1,0 +1,16 @@
+---------------------
+ A      AAAAA  AAAAA
+        AAAA   AAAAA
+=====================
+ AAAAA  AAAAA  AAAAA
+ AAAAA  AAAAA  AAAAA
+ A      AAAAA  AAAAA
+        AAAA   AAAAA
+---------------------
+ AAAAA  AAAAA  AAAAA
+ AAAAA  AAAAA  AAAAA
+ AAAAA  AAAAA  AAAAA
+ AAAAA  AAAAA  AAAAA
+ A      AAAAA  AAAAA
+        AAAA   AAAAA
+---------------------
