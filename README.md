@@ -26,7 +26,40 @@ yarn add table-writer
 
 ## Usage
 
+### Basic
+
 ```typescript
+import { Table } from 'table-writer';
+
+const table = new Table([
+  ['header1', 'header2', 'header3'],
+  ['row11', 'row12', 'row13'],
+  ['row21', 'row22', 'row33']
+]);
+console.log(table.write());
+```
+
+```bash
+---------------------------
+ header1  header2  header3
+===========================
+ row11    row12    row13
+---------------------------
+ row21    row22    row33
+---------------------------
+```
+
+### Change table style
+
+```typescript
+import { Table } from 'table-writer';
+
+const table = new Table([
+  ['header1', 'header2', 'header3'],
+  ['row11', 'row12', 'row13'],
+  ['row21', 'row22', 'row33']
+], { style: 'grid' });
+console.log(table.write());
 ```
 
 ## Table Styles
