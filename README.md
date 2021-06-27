@@ -2,6 +2,11 @@
 
 Generate ASCII table
 
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/homoluctus/table-writer/Test?label=test)
+![GitHub](https://img.shields.io/github/license/homoluctus/table-writer)
+![npm](https://img.shields.io/npm/v/table-writer)
+![node-current](https://img.shields.io/node/v/table-writer)
+
 ## Features
 
 - Automatic wrap
@@ -60,6 +65,40 @@ const table = new Table([
 ], { style: 'grid' });
 console.log(table.write());
 ```
+
+## API
+
+### class Table
+
+#### constructor(rows [, options])
+
+- rows
+  - `[][]string (TableRows)`
+  - text context of table
+  - **rows[0][0]** is treated as table header
+- options
+  - `object (TableOptions)`
+  - see [options](#options)
+
+##### options
+
+||Required|Default|Description|
+|:--:|:--:|:--:|:--|
+|style|No|simple|Predefined table style. See following [Table Styles](#table-styles)|
+|format|No|N/A|Customize table style.|
+|width|No|process.stdout.columns|Maximum terminal width.|
+
+#### add(row): void
+
+Add a row to existing table rows. Treat table header if no talbe rows.
+
+- row
+  - `[][]string (TableRow)`
+  - a row of table
+
+#### write(): string
+
+Render table.
 
 ## Table Styles
 
