@@ -6,8 +6,8 @@ describe('Table Test', () => {
     const maxWidth = 50;
     const source = [
       [repeatStr(1), repeatStr(9), repeatStr(10)],
-      [repeatStr(11), repeatStr(19), repeatStr(20)],
-      [repeatStr(21), repeatStr(29), repeatStr(30)]
+      [repeatStr(11, 'B'), repeatStr(19, 'B'), repeatStr(20, 'B')],
+      [repeatStr(21, 'C'), repeatStr(29, 'C'), repeatStr(30, 'C')]
     ];
     const expected = loadFixture('table/simple.txt');
     const table = new Table(source, { width: maxWidth });
@@ -18,8 +18,8 @@ describe('Table Test', () => {
     const maxWidth = 50;
     const source = [
       [repeatStr(1), repeatStr(9), repeatStr(10)],
-      [repeatStr(11), repeatStr(19), repeatStr(20)],
-      [repeatStr(21), repeatStr(29), repeatStr(30)]
+      [repeatStr(11, 'B'), repeatStr(19, 'B'), repeatStr(20, 'B')],
+      [repeatStr(21, 'C'), repeatStr(29, 'C'), repeatStr(30, 'C')]
     ];
     const expected = loadFixture('table/grid.txt');
     const table = new Table(source, { style: 'grid', width: maxWidth });
@@ -30,8 +30,8 @@ describe('Table Test', () => {
     const maxWidth = 10;
     const source = [
       [repeatStr(1), repeatStr(9), repeatStr(10)],
-      [repeatStr(11), repeatStr(19), repeatStr(20)],
-      [repeatStr(21), repeatStr(29), repeatStr(30)]
+      [repeatStr(11, 'B'), repeatStr(19, 'B'), repeatStr(20, 'B')],
+      [repeatStr(21, 'C'), repeatStr(29, 'C'), repeatStr(30, 'C')]
     ];
     const expected = loadFixture('table/simple_min_cell_width.txt');
     const table = new Table(source, { width: maxWidth });

@@ -1,16 +1,13 @@
----------------------
- A      AAAAA  AAAAA
-        AAAA   AAAAA
-=====================
- AAAAA  AAAAA  AAAAA
- AAAAA  AAAAA  AAAAA
  A      AAAAA  AAAAA
         AAAA   AAAAA
 ---------------------
- AAAAA  AAAAA  AAAAA
- AAAAA  AAAAA  AAAAA
- AAAAA  AAAAA  AAAAA
- AAAAA  AAAAA  AAAAA
- A      AAAAA  AAAAA
-        AAAA   AAAAA
----------------------
+ BBBBB  BBBBB  BBBBB
+ BBBBB  BBBBB  BBBBB
+ B      BBBBB  BBBBB
+        BBBB   BBBBB
+ CCCCC  CCCCC  CCCCC
+ CCCCC  CCCCC  CCCCC
+ CCCCC  CCCCC  CCCCC
+ CCCCC  CCCCC  CCCCC
+ C      CCCCC  CCCCC
+        CCCC   CCCCC

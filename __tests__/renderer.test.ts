@@ -7,7 +7,7 @@ describe('Renderer Test', () => {
 
   describe('Render header', () => {
     test('With simple style', () => {
-      const expected = ' A  A  A\n    A  A\n=========\n';
+      const expected = ' A  A  A\n    A  A\n---------\n';
 
       const renderer = new Renderer('simple');
       const rows = new Rows();
@@ -31,7 +31,7 @@ describe('Renderer Test', () => {
 
   describe('Render rows', () => {
     test('With simple style', () => {
-      const expected = ' A  A  A\n    A  A\n---------\n A  A  A\n---------\n';
+      const expected = ' A  A  A\n    A  A\n A  A  A\n';
 
       const renderer = new Renderer('simple');
       const rows = new Rows();
