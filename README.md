@@ -2,6 +2,11 @@
 
 Generate ASCII table
 
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/homoluctus/table-writer/Test?label=test)
+![GitHub](https://img.shields.io/github/license/homoluctus/table-writer)
+![npm](https://img.shields.io/npm/v/table-writer)
+![node-current](https://img.shields.io/node/v/table-writer)
+
 ## Features
 
 - Automatic wrap
