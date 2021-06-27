@@ -70,7 +70,7 @@ console.log(table.write());
 #### constructor(rows [, options])
 
 - rows
-  - `[][]string (TableRows)`
+  - `string[][] (TableRows)`
   - text context of table
   - **rows[0][0]** is treated as table header
 - options
@@ -90,7 +90,7 @@ console.log(table.write());
 Add a row to existing table rows. Treat table header if no talbe rows.
 
 - row
-  - `[][]string (TableRow)`
+  - `string[] (TableRow)`
   - a row of table
 
 #### write(): string
