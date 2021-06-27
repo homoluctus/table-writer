@@ -44,13 +44,10 @@ console.log(table.write());
 ```
 
 ```bash
----------------------------
  header1  header2  header3
-===========================
+---------------------------
  row11    row12    row13
----------------------------
  row21    row22    row33
----------------------------
 ```
 
 ### Change table style
@@ -105,14 +102,13 @@ Render table.
 ### Simple
 
 ```
---------------------------------------------------
  A          AAAAAAAAA          AAAAAAAAAA
-==================================================
- AAAAAAAAA  AAAAAAAAAAAAAAAAA  AAAAAAAAAAAAAAAAAA
 --------------------------------------------------
- AAAAAAAAA  AAAAAAAAAAAAAAAAA  AAAAAAAAAAAAAAAAAA
- AAA
---------------------------------------------------
+ BBBBBBBBB  BBBBBBBBBBBBBBBBB  BBBBBBBBBBBBBBBBBB
+ BB         BB                 BB
+ CCCCCCCCC  CCCCCCCCCCCCCCCCC  CCCCCCCCCCCCCCCCCC
+ CCCCCCCCC  CCCCCCCCCCCC       CCCCCCCCCCCC
+ CCC
 ```
 
 ### Grid
@@ -121,9 +117,11 @@ Render table.
 +-----------+-------------------+--------------------+
 | A         | AAAAAAAAA         | AAAAAAAAAA         |
 +===========+===================+====================+
-| AAAAAAAAA | AAAAAAAAAAAAAAAAA | AAAAAAAAAAAAAAAAAA |
+| BBBBBBBBB | BBBBBBBBBBBBBBBBB | BBBBBBBBBBBBBBBBBB |
+| BB        | BB                | BB                 |
 +-----------+-------------------+--------------------+
-| AAAAAAAAA | AAAAAAAAAAAAAAAAA | AAAAAAAAAAAAAAAAAA |
-| AAA       |                   |                    |
+| CCCCCCCCC | CCCCCCCCCCCCCCCCC | CCCCCCCCCCCCCCCCCC |
+| CCCCCCCCC | CCCCCCCCCCCC      | CCCCCCCCCCCC       |
+| CCC       |                   |                    |
 +-----------+-------------------+--------------------+
 ```

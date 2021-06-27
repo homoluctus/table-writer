@@ -7,7 +7,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "ncc build src/cli.ts",
+    "build": "ncc build src/index.ts",
     "format": "prettier --write src/**/*.ts",
     "format:check": "prettier --check --loglevel warn src/**/*.ts",
     "test": "jest",
@@ -19,6 +19,7 @@
   },
   "keywords": [
     "CLI",
+    "ASCII",
     "Terminal",
     "Table",
     "TypeScript"

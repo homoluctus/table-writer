@@ -6,13 +6,13 @@ export const styles: Record<TableStyle, Readonly<TableFormat>> = {
     chars: {
       betweenHeaderAndRows: {
         begin: '',
-        middle: '=',
+        middle: '-',
         sep: '',
         end: ''
       },
       line: {
         begin: '',
-        middle: '-',
+        middle: '',
         sep: '',
         end: ''
       },

@@ -1,10 +1,7 @@
---------------------------------------------------
  A          AAAAAAAAA          AAAAAAAAAA
-==================================================
- AAAAAAAAA  AAAAAAAAAAAAAAAAA  AAAAAAAAAAAAAAAAAA
- AA         AA                 AA
 --------------------------------------------------
- AAAAAAAAA  AAAAAAAAAAAAAAAAA  AAAAAAAAAAAAAAAAAA
- AAAAAAAAA  AAAAAAAAAAAA       AAAAAAAAAAAA
- AAA
---------------------------------------------------
+ BBBBBBBBB  BBBBBBBBBBBBBBBBB  BBBBBBBBBBBBBBBBBB
+ BB         BB                 BB
+ CCCCCCCCC  CCCCCCCCCCCCCCCCC  CCCCCCCCCCCCCCCCCC
+ CCCCCCCCC  CCCCCCCCCCCC       CCCCCCCCCCCC
+ CCC
