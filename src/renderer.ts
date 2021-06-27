@@ -68,7 +68,8 @@ export class Renderer {
     const middle = maxColumnWidths
       .map((v) => line.middle.repeat(v))
       .join(line.sep);
-    return `${line.begin}${middle}${line.end}${this.newline}`;
+    const tmp = `${line.begin}${middle}${line.end}`;
+    return tmp ? `${tmp}${this.newline}` : '';
   }
 
   private pad(word: string, width: number): string {
