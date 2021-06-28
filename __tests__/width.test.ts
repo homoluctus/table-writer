@@ -36,7 +36,7 @@ describe('Width Test', () => {
   test('shrink() returns true', () => {
     const width = new Width(30);
     width['_maxColumnWidths'] = [20, 20, 20];
-    const expectedColumnWidths = [10, 10, 10];
+    const expectedColumnWidths = [9, 9, 9];
     expect(width.shrink()).toBeTruthy();
     expect(width.maxColumnWidths).toMatchObject(expectedColumnWidths);
   });
