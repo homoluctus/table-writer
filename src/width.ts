@@ -50,7 +50,7 @@ export class Width {
     }
 
     const len = this._maxColumnWidths.length;
-    const shrink = Math.ceil(diff / len);
+    const shrink = Math.ceil(diff / len) + 1;
     this._maxColumnWidths = this._maxColumnWidths.map((v) => {
       const w = v - shrink;
       return w >= this.minColumnWidth ? w : this.minColumnWidth;
