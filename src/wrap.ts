@@ -1,10 +1,6 @@
 import { Row, Rows } from './row';
 
-export function wrap(
-  rows: Rows,
-  maxColWidths: number[],
-  padding: number = 0
-): void {
+export function wrap(rows: Rows, maxColWidths: number[], padding = 0): void {
   rows.current = rows.header;
   while (rows.current) {
     rows.current.data.forEach((v, i) => {

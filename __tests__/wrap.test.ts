@@ -12,7 +12,7 @@ describe('wrap() Test', () => {
   function createSource(num: number = eleNum, cnt: number = max): TableRows {
     return Array(num)
       .fill(null)
-      .map((_, i) => Array(maxColumnWidths.length).fill(repeatStr(cnt)));
+      .map(() => Array(maxColumnWidths.length).fill(repeatStr(cnt)));
   }
 
   function dump(rows: Rows): TableRows {

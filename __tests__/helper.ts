@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-export function repeatStr(num: number, v: string = 'A'): string {
+export function repeatStr(num: number, v = 'A'): string {
   return v.repeat(num);
 }
 
