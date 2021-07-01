@@ -5,7 +5,7 @@ export class Row {
   isChunk: boolean;
   next?: Row;
 
-  constructor(data: TableRow, isChunk: boolean = false) {
+  constructor(data: TableRow, isChunk = false) {
     this.data = data;
     this.isChunk = isChunk;
   }

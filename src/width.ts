@@ -4,7 +4,7 @@ import { Rows } from './row';
 export class Width {
   readonly maxWidth: number;
   private _maxColumnWidths: number[] = [];
-  private minColumnWidth: number = 5;
+  private minColumnWidth = 5;
 
   constructor(maxWidth: number = process.stdout.columns) {
     this.maxWidth = maxWidth;
@@ -14,7 +14,7 @@ export class Width {
     return this._maxColumnWidths;
   }
 
-  compute(rows: Rows, padding: number = 0): void {
+  compute(rows: Rows, padding = 0): void {
     this.minColumnWidth += padding * 2;
 
     let current = rows.header;
